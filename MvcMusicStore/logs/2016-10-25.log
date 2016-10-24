@@ -1,0 +1,33 @@
+2016-10-25 00:06:24.5630 INFO Application starter
+2016-10-25 00:06:26.5432 ERROR System.NotSupportedException: Enum 'LogInCounters' needs to have a PerformanceCounterCategoryAttribute with category information.
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 187
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 48
+2016-10-25 00:08:02.2508 INFO Application starter
+2016-10-25 00:08:04.1430 ERROR System.InvalidOperationException: Counter 'LogIn count' does not exist in the specified Category.
+   at System.Diagnostics.CategorySample.GetCounterDefinitionSample(String counter)
+   at System.Diagnostics.PerformanceCounter.get_CounterType()
+   at PerformanceCounterHelper.Impl.CounterHelperImpl`1..ctor(String instanceName, PerformanceCounterCategoryAttribute categoryInfo, Dictionary`2 enumCounterAttributes) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\Impl\CounterHelperImpl.cs:line 75
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 215
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 48
+2016-10-25 00:18:32.8918 INFO Application starter
+2016-10-25 00:18:38.3904 DEBUG Enter to Home page
+2016-10-25 00:20:09.0895 DEBUG Enter to Home page
+2016-10-25 00:20:23.8039 DEBUG Enter to Home page
+2016-10-25 00:24:25.9560 INFO Application starter
+2016-10-25 00:24:33.4987 DEBUG Enter to Home page
+2016-10-25 00:24:53.9187 INFO Application starter
+2016-10-25 00:24:59.6023 DEBUG Enter to Home page
+2016-10-25 00:25:34.7238 DEBUG Enter to Home page
+2016-10-25 00:26:27.9422 INFO Application starter
+2016-10-25 00:26:37.0081 DEBUG Enter to Home page
+2016-10-25 00:26:41.3735 DEBUG Enter to Home page
+2016-10-25 00:33:08.4352 INFO Application starter
+2016-10-25 00:33:16.9630 DEBUG Enter to Home page
+2016-10-25 00:33:57.6871 DEBUG Enter to Home page
+2016-10-25 00:36:20.2314 INFO Application starter
+2016-10-25 00:40:15.7242 INFO Application starter
+2016-10-25 00:40:22.0699 DEBUG Enter to Home page
+2016-10-25 00:40:41.6088 DEBUG Enter to Home page
+2016-10-25 00:41:18.2455 DEBUG Enter to Home page
+2016-10-25 00:41:48.9165 DEBUG Enter to Home page
+2016-10-25 00:41:55.1382 DEBUG Enter to Home page

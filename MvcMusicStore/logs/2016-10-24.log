@@ -1,0 +1,93 @@
+2016-10-24 20:06:48.1765 INFO Application starter
+2016-10-24 20:33:52.2655 INFO Application starter
+2016-10-24 20:35:11.2134 INFO Application starter
+2016-10-24 20:37:10.3813 INFO Application starter
+2016-10-24 20:37:13.9277 DEBUG Enter to Home page
+2016-10-24 20:49:19.3780 INFO Application starter
+2016-10-24 20:49:23.1334 DEBUG Enter to Home page
+2016-10-24 20:49:47.4068 ERROR System.Exception: Error
+   at MvcMusicStore.Controllers.AccountController.Login(String returnUrl) in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Controllers\AccountController.cs:line 58
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-24 22:11:16.3222 INFO Application starter
+2016-10-24 22:11:24.9530 DEBUG Enter to Home page
+2016-10-24 22:29:38.4484 INFO Application starter
+2016-10-24 22:29:43.8139 DEBUG Enter to Home page
+2016-10-24 22:29:48.9764 DEBUG Enter to Home page
+2016-10-24 22:29:51.5207 DEBUG Enter to Home page
+2016-10-24 22:29:53.6029 DEBUG Enter to Home page
+2016-10-24 22:29:58.3624 DEBUG Enter to Home page
+2016-10-24 22:30:01.6697 DEBUG Enter to Home page
+2016-10-24 22:30:05.1730 DEBUG Enter to Home page
+2016-10-24 22:30:07.7493 DEBUG Enter to Home page
+2016-10-24 22:40:16.9942 INFO Application starter
+2016-10-24 22:50:50.2435 INFO Application starter
+2016-10-24 22:50:52.6988 ERROR System.InvalidOperationException: Counter 'LogIn' does not exist in the specified Category.
+   at System.Diagnostics.CategorySample.GetCounterDefinitionSample(String counter)
+   at System.Diagnostics.PerformanceCounter.get_CounterType()
+   at PerformanceCounterHelper.Impl.CounterHelperImpl`1..ctor(String instanceName, PerformanceCounterCategoryAttribute categoryInfo, Dictionary`2 enumCounterAttributes) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\Impl\CounterHelperImpl.cs:line 75
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 215
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 43
+2016-10-24 22:52:06.6202 INFO Application starter
+2016-10-24 22:52:08.4934 ERROR System.InvalidOperationException: Counter 'LogIn' does not exist in the specified Category.
+   at System.Diagnostics.CategorySample.GetCounterDefinitionSample(String counter)
+   at System.Diagnostics.PerformanceCounter.get_CounterType()
+   at PerformanceCounterHelper.Impl.CounterHelperImpl`1..ctor(String instanceName, PerformanceCounterCategoryAttribute categoryInfo, Dictionary`2 enumCounterAttributes) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\Impl\CounterHelperImpl.cs:line 75
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 215
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 43
+2016-10-24 22:55:42.3106 INFO Application starter
+2016-10-24 22:57:03.9160 INFO Application starter
+2016-10-24 22:57:06.6573 ERROR System.InvalidOperationException: Counter 'LogIn count' does not exist in the specified Category.
+   at System.Diagnostics.CategorySample.GetCounterDefinitionSample(String counter)
+   at System.Diagnostics.PerformanceCounter.get_CounterType()
+   at PerformanceCounterHelper.Impl.CounterHelperImpl`1..ctor(String instanceName, PerformanceCounterCategoryAttribute categoryInfo, Dictionary`2 enumCounterAttributes) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\Impl\CounterHelperImpl.cs:line 75
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 215
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 43
+2016-10-24 23:10:08.9225 INFO Application starter
+2016-10-24 23:16:52.9789 INFO Application starter
+2016-10-24 23:16:56.4442 ERROR System.InvalidOperationException: Counter 'LogIn count' does not exist in the specified Category.
+   at System.Diagnostics.CategorySample.GetCounterDefinitionSample(String counter)
+   at System.Diagnostics.PerformanceCounter.get_CounterType()
+   at PerformanceCounterHelper.Impl.CounterHelperImpl`1..ctor(String instanceName, PerformanceCounterCategoryAttribute categoryInfo, Dictionary`2 enumCounterAttributes) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\Impl\CounterHelperImpl.cs:line 75
+   at PerformanceCounterHelper.PerformanceHelper.CreateCounterHelper[T](String instanceName) in D:\codeplex\perfmoncounterhelper\PerformanceCounterHelper\PerformanceHelper.cs:line 215
+   at MvcMusicStore.MvcApplication.Application_Start() in D:\ÌÎ¨\Tasks\Task11_LM\Task\Task\MvcMusicStore\Global.asax.cs:line 43
+2016-10-24 23:18:57.6234 INFO Application starter
+2016-10-24 23:21:14.8581 INFO Application starter
+2016-10-24 23:24:43.3929 INFO Application starter
+2016-10-24 23:38:57.6961 INFO Application starter
+2016-10-24 23:54:45.2456 INFO Application starter
+2016-10-24 23:58:06.8418 INFO Application starter
+2016-10-24 23:58:14.5325 DEBUG Enter to Home page
